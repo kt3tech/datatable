@@ -1,10 +1,10 @@
 {
-  "name": "frappe-datatable",
+  "name": "k3_kt_com-datatable",
   "version": "0.0.0-development",
   "description": "A modern datatable library for the web",
-  "main": "dist/frappe-datatable.cjs.js",
-  "unpkg": "dist/frappe-datatable.min.js",
-  "jsdelivr": "dist/frappe-datatable.min.js",
+  "main": "dist/k3_kt_com-datatable.cjs.js",
+  "unpkg": "dist/k3_kt_com-datatable.min.js",
+  "jsdelivr": "dist/k3_kt_com-datatable.min.js",
   "scripts": {
     "start": "yarn run dev",
     "build": "rollup -c && NODE_ENV=production rollup -c",
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frappe/datatable.git"
+    "url": "https://github.com/kt3tech/datatable.git"
   },
   "keywords": [
     "datatable",
@@ -62,9 +62,9 @@
   "author": "Faris Ansari",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frappe/datatable/issues"
+    "url": "https://github.com/kt3tech/datatable/issues"
   },
-  "homepage": "https://frappe.io/datatable",
+  "homepage": "https://kt3tech.io/datatable",
   "dependencies": {
     "hyperlist": "^1.0.0-beta",
     "lodash": "^4.17.5",
