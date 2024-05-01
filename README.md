@@ -1,15 +1,15 @@
 <div align="center">
-    <img src="https://github.com/frappe/design/raw/master/logos/logo-2019/frappe-datatable-logo.png" height="128">
-    <h2>Frappe DataTable</h2>
+    <img src="https://github.com/kt3tech/design/raw/master/logos/logo-2019/k3_kt_com-datatable-logo.png" height="128">
+    <h2>K3_kt_com DataTable</h2>
     <p align="center">
     <p>
     A modern datatable library for the web
     </p>
 
-[![Test and Release](https://github.com/frappe/datatable/workflows/Test%20and%20Release/badge.svg)](https://github.com/frappe/datatable/actions?query=workflow%3A%22Test+and+Release%22)
-[![npm version](https://badge.fury.io/js/frappe-datatable.svg)](https://badge.fury.io/js/frappe-datatable)
+[![Test and Release](https://github.com/kt3tech/datatable/workflows/Test%20and%20Release/badge.svg)](https://github.com/kt3tech/datatable/actions?query=workflow%3A%22Test+and+Release%22)
+[![npm version](https://badge.fury.io/js/k3_kt_com-datatable.svg)](https://badge.fury.io/js/k3_kt_com-datatable)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/frappe-datatable.svg)
+![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/k3_kt_com-datatable.svg)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Frappe DataTable is a simple, modern and interactive datatable library for displaying tabular data. Originally built for [ERPNext](https://github.com/frappe/erpnext), it can be used to render large amount of rows without sacrificing performance and has the basic data grid features like inline editing and keyboard navigation. It does not require jQuery, unlike most data grids out there.
+K3_kt_com DataTable is a simple, modern and interactive datatable library for displaying tabular data. Originally built for [ERPNext](https://github.com/kt3tech/erpnext), it can be used to render large amount of rows without sacrificing performance and has the basic data grid features like inline editing and keyboard navigation. It does not require jQuery, unlike most data grids out there.
 
 ## Demo
 
@@ -54,9 +54,9 @@ Frappe DataTable is a simple, modern and interactive datatable library for displ
 ## Install
 
 ```bash
-yarn add frappe-datatable
+yarn add k3_kt_com-datatable
 # or
-npm install frappe-datatable
+npm install k3_kt_com-datatable
 ```
 
 > Note: [`sortablejs`](https://github.com/RubaXa/Sortable) is required to be installed as well.
