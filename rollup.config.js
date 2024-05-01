@@ -51,7 +51,7 @@ const baseCSS = {
 
 const devIIFE = merge(baseJS, {
     output: {
-        file: 'dist/frappe-datatable.js',
+        file: 'dist/k3_kt_com-datatable.js',
         format: 'iife',
         name: 'DataTable'
     }
@@ -59,14 +59,14 @@ const devIIFE = merge(baseJS, {
 
 const devCjs = merge(baseJS, {
     output: {
-        file: 'dist/frappe-datatable.cjs.js',
+        file: 'dist/k3_kt_com-datatable.cjs.js',
         format: 'cjs'
     }
 });
 
 const devCSS = merge(baseCSS, {
     output: {
-        file: 'dist/frappe-datatable.css',
+        file: 'dist/k3_kt_com-datatable.css',
         format: 'cjs'
     }
 });
@@ -74,7 +74,7 @@ const devCSS = merge(baseCSS, {
 // production
 const prodIIFE = merge(devIIFE, {
     output: {
-        file: 'dist/frappe-datatable.min.js'
+        file: 'dist/k3_kt_com-datatable.min.js'
     },
     plugins: [
         uglify()
@@ -83,7 +83,7 @@ const prodIIFE = merge(devIIFE, {
 
 const prodCSS = merge(devCSS, {
     output: {
-        file: 'dist/frappe-datatable.min.css'
+        file: 'dist/k3_kt_com-datatable.min.css'
     }
 });
 
